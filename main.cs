@@ -15,7 +15,7 @@ namespace AUMaps
     [BepInProcess("Among Us.exe")]
     public class AUMapsPlugin : BasePlugin
     {
-        public const string PluginGuid = "com.integral1729.aumaps";
+        public const string PluginGuid = "com.mod.aumaps";
         public const string PluginVersion = "1.0.0";
         public static AUMapsPlugin Instance;
 
