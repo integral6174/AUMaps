@@ -9,7 +9,7 @@ using UnityEngine;
 using Hazel;
 using System.Linq;
 
-namespace TownOfHost
+namespace AUMaps
 {
     [BepInPlugin(PluginGuid, "AU Maps", PluginVersion)]
     [BepInProcess("Among Us.exe")]
