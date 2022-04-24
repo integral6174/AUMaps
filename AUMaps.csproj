@@ -14,6 +14,10 @@
       <Reference Include="$(AmongUs)\BepInEx\unity-libs\*.dll" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="AUMaps\Resources\" />
+  </ItemGroup>
+
     <Target Name="Copy" AfterTargets="Build" Condition="'$(AmongUs)' != ''">
         <Copy SourceFiles="$(OutputPath)$(AssemblyName).dll" DestinationFolder="$(AmongUs)/BepInEx/plugins/" Condition="'$(Configuration)' == 'Debug'" />
     </Target>

@@ -1,3 +1,4 @@
+using BepInEx.IL2CPP.Utils;
 using HarmonyLib;
 using System.Collections;
 using System.Collections.Generic;
